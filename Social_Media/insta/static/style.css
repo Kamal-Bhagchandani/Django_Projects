@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+header .search-bar input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.posts {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.post-image {
+    background-color: #ccc;
+    height: 300px;
+}
+
+.post-actions {
+    display: flex;
+    padding: 10px;
+}
+
+.post-actions i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.post-likes {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.post-caption {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.sidebar-username {
+    font-weight: bold;
+}
+
+.suggested-users {
+    display: flex;
+    flex-direction: column;
+}
+
+.suggested-user {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

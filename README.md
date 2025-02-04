@@ -7,5 +7,5 @@ In this repo, I will push everything I have learned in Django, starting from the
 
 ## Projects List
 1. **Project 1: Social_Media**
-   -I developed this Django project as part of a 1-week Project-Based Learning (PBL) workshop at college, where I gained hands-on experience with Django and other Python libraries such as Pandas, NumPy, Matplotlib, Scikit-learn, and OpenCV, all under the guidance of skilled instructors.
+   - I developed this Django project as part of a 1-week Project-Based Learning (PBL) workshop at college, where I gained hands-on experience with Django and other Python libraries such as Pandas, NumPy, Matplotlib, Scikit-learn, and OpenCV, all under the guidance of skilled instructors.
 

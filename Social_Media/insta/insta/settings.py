@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-qs0_=_=@s%kps&k$9#90cxh7kou9c-6+=iyr1(u2uft3u@gkzr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.0.106']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'insta.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME' : 'Kamal',
+        'NAME' : '<name>',
         'USER' : 'root',
-        'PASSWORD' : 'K@m@lK@m@l1',
+        'PASSWORD' : '<password>',
         'HOST' : 'localhost',
         'PORT' : '3306'
     }

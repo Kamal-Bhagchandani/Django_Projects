@@ -6,7 +6,7 @@ from rest_framework.reverse import reverse_lazy
 
 
 def hello(request):
-    return HttpResponse("<h1>You Forgot Your Password??? <br>Shame On You.</h1>")
+    return HttpResponse("<h1>You Forgot Your Password??? <br>Thats soo sad :( </h1>")
 
 def home(request):
     return render(request,'home.html')
